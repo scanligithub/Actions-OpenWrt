@@ -64,8 +64,6 @@ jobs:
     - name: Load custom feeds
       run: |
         cd openwrt
-        ./compile.sh
-        ./compile.sh list
         ./compile.sh lorawan_gateway_ethernet
 
     - name: Check space usage
