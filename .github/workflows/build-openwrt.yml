@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/wireless-road/imx6ull-openwrt
+  REPO_URL: https://github.com/scanligithub/imx6ull-openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
